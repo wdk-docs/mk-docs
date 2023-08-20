@@ -30,5 +30,5 @@ npm run dev
 
 要了解更多关于这个例子的信息:
 
-- [Next.js 文档](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Next.js 文档](https://nextjs.org/docs) - 了解Next.js的特性和API。
 - [自定义 Material UI](https://mui.com/material-ui/customization/how-to-customize/) - 定制 Material UI的方法。

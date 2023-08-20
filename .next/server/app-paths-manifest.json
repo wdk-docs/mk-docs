@@ -1,0 +1,6 @@
+{
+  "/docs/getting-started/page": "app/docs/getting-started/page.js",
+  "/docs/getting-started/project-structure/page": "app/docs/getting-started/project-structure/page.js",
+  "/docs/getting-started/installation/page": "app/docs/getting-started/installation/page.js",
+  "/docs/app/building-your-application/styling/css-modules/page": "app/docs/app/building-your-application/styling/css-modules/page.js"
+}

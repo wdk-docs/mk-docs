@@ -1,10 +1,10 @@
-# Material UI - Next.js App Router example
+# Material UI - Next.js应用路由器的例子
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped using [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with Material UI installed.
+这是一个[Next.js](https://nextjs.org/)项目启动使用[`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app)与材料UI安装。
 
-## How to use
+## 如何使用
 
-Download the example [or clone the repo](https://github.com/mui/material-ui):
+下载示例[或克隆repo](https://github.com/mui/material-ui):
 
 <!-- #default-branch-switch -->
 
@@ -13,22 +13,22 @@ curl https://codeload.github.com/mui/material-ui/tar.gz/master | tar -xz --strip
 cd material-ui-nextjs
 ```
 
-Install dependencies and run:
+安装依赖项并运行:
 
 ```bash
 npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+用浏览器打开[http://localhost:3000](http://localhost:3000)查看结果。
 
-You can start editing the page by modifying `src/app/page.js`. The page auto-updates as you edit the file.
+你可以通过修改`src/app/page.js`来开始编辑页面。当您编辑文件时，页面会自动更新。
 
-This example uses [`next/font/google`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts#google-fonts) to automatically optimize and load Roboto, a custom Google Font.
+这个例子使用[`next/font/google`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts#google-fonts)来自动优化和加载Roboto，一个自定义的google字体。
 
-## Learn more
+## 了解更多
 
-To learn more about this example:
+要了解更多关于这个例子的信息:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Customizing Material UI](https://mui.com/material-ui/customization/how-to-customize/) - approaches to customizing Material UI.
+- [Next.js 文档](https://nextjs.org/docs) - learn about Next.js features and API.
+- [自定义 Material UI](https://mui.com/material-ui/customization/how-to-customize/) - 定制 Material UI的方法。

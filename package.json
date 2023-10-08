@@ -12,6 +12,7 @@
     "@emotion/cache": "latest",
     "@emotion/react": "latest",
     "@emotion/styled": "latest",
+    "@jsdevtools/rehype-toc": "^3.0.2",
     "@mdx-js/loader": "^2.3.0",
     "@mdx-js/react": "^2.3.0",
     "@mui/icons-material": "latest",
@@ -25,9 +26,12 @@
     "react-dom": "18.x",
     "rehype-highlight": "^6.0.0",
     "rehype-katex": "^6.0.3",
+    "rehype-slug": "^5.1.0",
     "remark-frontmatter": "^4.0.1",
     "remark-gfm": "^3.0.1",
-    "remark-math": "^5.1.1"
+    "remark-math": "^5.1.1",
+    "remark-mdx-frontmatter": "^3.0.0",
+    "remark-toc": "^8.0.1"
   },
   "devDependencies": {
     "classnames": "^2.3.2",

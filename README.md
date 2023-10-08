@@ -32,3 +32,9 @@ npm run dev
 
 - [Next.js 文档](https://nextjs.org/docs) - 了解Next.js的特性和API。
 - [自定义 Material UI](https://mui.com/material-ui/customization/how-to-customize/) - 定制 Material UI的方法。
+
+## mui+mdx
+
+这是一个demo
+
+> https://github.com/VdustR/example-material-ui-mdx

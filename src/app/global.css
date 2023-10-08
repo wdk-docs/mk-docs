@@ -4,3 +4,75 @@ pre code.hljs {
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
   border-radius: 0.4rem;
 }
+
+.css-xwev9j {
+  top: var(--MuiDocs-header-height);
+  margin-top: var(--MuiDocs-header-height);
+  padding-left: 2px;
+  position: -webkit-sticky;
+  position: sticky;
+  height: calc(100vh - var(--MuiDocs-header-height));
+  overflow-y: auto;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-right: 32px;
+  display: none;
+}
+/* @media (min-width: 900px) */
+.css-xwev9j {
+  display: block;
+}
+.css-eiadz7 {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.5;
+  letter-spacing: 0;
+  font-family:
+    "IBM Plex Sans",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    "Helvetica Neue",
+    Arial,
+    sans-serif,
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  font-weight: 400;
+  scroll-snap-margin-top: calc(var(--MuiDocs-header-height) + 32px);
+  scroll-margin-top: calc(var(--MuiDocs-header-height) + 32px);
+  margin-bottom: 0.35em;
+  margin-top: 16px;
+  margin-bottom: 8px;
+  padding-left: 11.2px;
+  font-size: 0.6875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08rem;
+  color: #6b7a90;
+}
+.css-utqcip {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.5;
+  letter-spacing: 0;
+  font-family:
+    "IBM Plex Sans",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    "Helvetica Neue",
+    Arial,
+    sans-serif,
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  font-weight: 400;
+  scroll-snap-margin-top: calc(var(--MuiDocs-header-height) + 32px);
+  scroll-margin-top: calc(var(--MuiDocs-header-height) + 32px);
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}

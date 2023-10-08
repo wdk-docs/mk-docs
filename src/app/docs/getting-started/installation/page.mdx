@@ -1,21 +1,23 @@
 ---
-title: Installation
-description: Create a new Next.js application with `create-next-app`. Set up TypeScript, styles, and configure your `next.config.js` file.
+title: 安装
+description: 用`create-next-app`创建一个新的Next.js应用。设置TypeScript、样式，并配置你的`next.config.js`文件。
 related:
-  title: Next Steps
-  description: For more information on what to do next, we recommend the following sections
+  title: 下一个步骤
+  description: 有关下一步操作的更多信息，我们建议阅读以下部分
   links:
     - getting-started/react-essentials
     - app/building-your-application
     - app/building-your-application/configuring/typescript
 ---
 
+# 安装
+
 System Requirements:
 
 - [Node.js 16.8](https://nodejs.org/) or later.
 - macOS, Windows (including WSL), and Linux are supported.
 
-## Automatic Installation
+## 自动安装
 
 We recommend creating a new Next.js app using `create-next-app`, which sets up everything automatically for you. To create a project, run:
 
@@ -41,7 +43,7 @@ After the prompts, `create-next-app` will create a folder with your project name
 
 > **Good to know**: While you can use the [Pages Router](/docs/pages) in your new project. We recommend starting new applications with the App Router to leverage React's latest features.
 
-## Manual Installation
+## 手动安装
 
 To manually create a new Next.js app, install the required packages:
 
@@ -69,11 +71,11 @@ These scripts refer to the different stages of developing an application:
 - `start`: runs [`next start`](/docs/app/api-reference/next-cli#production) to start a Next.js production server.
 - `lint`: runs [`next lint`](/docs/app/api-reference/next-cli#lint) to set up Next.js' built-in ESLint configuration.
 
-### Creating directories
+### 创建目录
 
 Next.js uses file-system routing, which means how you structure your files determines the routes in your application.
 
-#### The `app` directory
+#### `app` 目录
 
 For new applications, we recommend using the App Router. This router allows you to use React's latest features and is an evolution of the Pages Router based on community feedback.
 
@@ -119,7 +121,7 @@ export default function Page() {
 
 Learn more about [using the App Router](/docs/app/building-your-application/routing/defining-routes).
 
-#### The `pages` directory (optional)
+#### `pages` 目录 (可选)
 
 If you prefer to use the Pages Router instead of the App Router, you can create a `pages/` directory at the root of your project.
 
@@ -169,11 +171,11 @@ Learn more about [using the Pages Router](/docs/pages/building-your-application/
 
 > **Good to know**: Although you can use both routers in the same project, routes in `app` will be prioritized over `pages`. We recommend using only one router in your new project to avoid confusion.
 
-### The `public` folder (optional)
+### `public` 文件夹 (可选)
 
 You can optionally create a `public` folder to store static assets such as images, fonts, etc. Files inside `public` directory can then be referenced by your code starting from the base URL (`/`).
 
-## Run the Development Server
+## 运行开发服务器
 
 1. Run `npm run dev` to start the development server.
 2. Visit `http://localhost:3000` to view your application.

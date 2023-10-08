@@ -12,12 +12,8 @@ import HelloWorld from "./hello.mdx";
 
 export default function HomePage() {
   return (
-    <Box
-      sx={{
-        display: "flex",
-      }}
-    >
-      <HelloWorld />
+    <Box sx={{ display: "flex" }}>
+      {/* <HelloWorld /> */}
       <Box>
         <Alert severity="info" sx={{ mt: 2, mb: 5 }}>
           <AlertTitle>Hello 👋</AlertTitle>
